@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.section {
+    text-align: center;
+    padding: 100px;
+    background-color: lightblue;
+}
