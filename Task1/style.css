@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8px;
+    transition: 0.3s;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#navbar a:hover {
+    color: yellow;
+}
+
+.scrolled {
+    background-color: black;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+.section:nth-child(even) {
+    background-color: lightgray;
+}
