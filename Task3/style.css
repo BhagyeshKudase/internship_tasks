@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color:  rgb(153, 238, 153);
+}
+
+h1 {
+    color: black;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+    margin: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border: 2px solid black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
