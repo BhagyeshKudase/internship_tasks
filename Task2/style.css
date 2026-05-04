@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color:navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: grey;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color:lightgrey;
+}
+
+#time {
+    font-size: 40px;
+    margin: 20px;
+    color: darkblue;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+}
